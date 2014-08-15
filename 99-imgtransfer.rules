@@ -1,0 +1,1 @@
+SUBSYSTEM=="block", KERNEL=="mmcblk0p*", ACTION=="add",  RUN+="/usr/bin/systemctl --no-block start imgtransfer.service"

@@ -1,0 +1,7 @@
+[Unit]
+Description=SD IMG to HD
+BindsTo=dev-mmcblk0p1.device
+
+[Service]
+Type=simple
+ExecStart=/media/hd/scripts/imgtransfer.sh
